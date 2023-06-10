@@ -1,0 +1,331 @@
+{
+  "id": "0344fd75-d346-4aff-b59d-57c82cccd1b4",
+  "version": "2.0",
+  "name": "uc_San-pham",
+  "url": "https://shop.siliconz.vn/",
+  "tests": [{
+    "id": "0a1e9fa7-1ea3-404f-8144-add2cfe50dcf",
+    "name": "uc_them-san-pham-gio-hang",
+    "commands": [{
+      "id": "e373c306-2825-4d45-b8b2-5ff4e85de8ef",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c5016fc-1c3b-4b34-a362-ae0689fa9b04",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a:nth-child(1) > .account-menu",
+      "targets": [
+        ["css=a:nth-child(1) > .account-menu", "css:finder"],
+        ["xpath=//div[@id='site-account-handle']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e96b7f4-4bb3-4fdf-ab1b-9e5ec66349c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "thanhlong09052002@gmail.com"
+    }, {
+      "id": "cf0e207b-72bf-419e-b2e2-6c6ed9331f0d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "05092002"
+    }, {
+      "id": "651f9798-d805-4ec7-9843-e1a2696814ef",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d40b2b9-6dbc-44e0-9df5-31aec3393779",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#tab-content-1 .box-product:nth-child(1) .attachment-medium",
+      "targets": [
+        ["css=#tab-content-1 .box-product:nth-child(1) .attachment-medium", "css:finder"],
+        ["xpath=//img[@alt='Keychron Q2 Pro - Bản Full - LED RGB - Hot Swap - Núm']", "xpath:img"],
+        ["xpath=//div[@id='tab-content-1']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cffd4c82-887b-48b3-b3af-1f6a830a0d4e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.color:nth-child(1) img",
+      "targets": [
+        ["css=.color:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Grey']", "xpath:img"],
+        ["xpath=//div[@id='variant-swatch-0']/div[2]/div/label/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/label/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcf8f39e-e5f6-48e9-9848-d516de993efa",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.number-plus",
+      "targets": [
+        ["css=.number-plus", "css:finder"],
+        ["xpath=//input[@value='+']", "xpath:attributes"],
+        ["xpath=//form[@id='add-item-form']/div[2]/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2356684-2917-4279-ad36-9a18ef04714d",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6404a1e-2f86-471d-902a-7d3e48ff7bc2",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Xem giỏ hàng",
+      "targets": [
+        ["linkText=Xem giỏ hàng", "linkText"],
+        ["css=.button", "css:finder"],
+        ["xpath=//a[contains(text(),'Xem giỏ hàng')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/cart')])[4]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xem giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e279c1ea-e1e6-4326-8938-af23eddcd0f9",
+    "name": "uc-xoa-san-pham-gio-hang",
+    "commands": [{
+      "id": "94a42e64-97f8-4ce5-b8c4-ee05f47b2e20",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "100ac57f-6646-440a-8056-19ba44613440",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.fa-shopping-cart",
+      "targets": [
+        ["css=.fa-shopping-cart", "css:finder"],
+        ["xpath=//div[@id='site-cart-handle']/a/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32033235-a25d-46d0-bdf6-1e94be1d5e09",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.remove-item > span",
+      "targets": [
+        ["css=.remove-item > span", "css:finder"],
+        ["xpath=//div[6]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "088d3d37-476a-4856-b221-445d9c81f8d1",
+    "name": "uc_quan-ly-don-hang",
+    "commands": [{
+      "id": "bd70fb9e-f447-456f-b443-615006d6ff21",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e85ba092-9931-4bb8-b930-5bdfc2ced516",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.account-menu",
+      "targets": [
+        ["css=.account-menu", "css:finder"],
+        ["xpath=//div[@id='site-account-handle']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b73be145-c4b5-4447-b7bd-e38554c3303b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Quản lý đơn hàng",
+      "targets": [
+        ["linkText=Quản lý đơn hàng", "linkText"],
+        ["css=a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quản lý đơn hàng')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/order')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Quản lý đơn hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e3a71494-a954-4c59-a207-7c4fd299c06f",
+    "name": "uc-thong-tin-tk",
+    "commands": [{
+      "id": "b6b5f12e-7c45-4e1f-ab3c-d260af5b6bd8",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a06782f1-1746-45ad-9bfb-f055b419e3a9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.account-menu",
+      "targets": [
+        ["css=.account-menu", "css:finder"],
+        ["xpath=//div[@id='site-account-handle']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75ab6ee6-0455-4156-a2b3-26165de696ad",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.userList > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(@href, '/profile')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "45120370-4e54-4c29-bbde-e6664e6892ad",
+    "name": "uc-thong-tin-ca-nhan",
+    "commands": [{
+      "id": "3ff071c6-dec9-446e-b79c-4e113530e720",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfab3b3d-f203-443e-809c-38fbcfb2434b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.account-menu",
+      "targets": [
+        ["css=.account-menu", "css:finder"],
+        ["xpath=//div[@id='site-account-handle']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5104c4f3-e30f-4ed7-b7dc-01d82d9e7d70",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Thông tin cá nhân",
+      "targets": [
+        ["linkText=Thông tin cá nhân", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Thông tin cá nhân')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/profile/edit')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Thông tin cá nhân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e4e89f9e-a432-4603-88a2-a95dc1652c21",
+    "name": "uc-het-san-pham",
+    "commands": [{
+      "id": "f10d950b-72d1-4ddf-89ec-d4b6ca3e1229",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e44459a6-8f7f-49dd-a09a-d67b77512d93",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.productHover38877714",
+      "targets": [
+        ["css=.productHover38877714", "css:finder"],
+        ["xpath=//img[@alt='Keychron K4 Pro - Bản Full - LED RGB - Hot Swap - Keychron K Pro']", "xpath:img"],
+        ["xpath=//div[@id='out-stock']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[8]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c8cca96-2fd6-4aa8-bd71-d60ec8b26fe8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Blue Switch",
+      "targets": [
+        ["linkText=Blue Switch", "linkText"],
+        ["css=.deactive:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Blue Switch')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blue Switch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5410d9d8-9237-4ea1-a50e-02fcbbce3b14",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.btn-outline",
+      "targets": [
+        ["css=.btn-outline", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "90e69152-3f3a-4c7d-bbb1-db734a684c81",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0a1e9fa7-1ea3-404f-8144-add2cfe50dcf"]
+  }],
+  "urls": ["https://shop.siliconz.vn/"],
+  "plugins": []
+}

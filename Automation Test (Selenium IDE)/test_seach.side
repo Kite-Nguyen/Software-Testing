@@ -1,0 +1,177 @@
+{
+  "id": "b462b02c-16b3-46e7-bd9a-43d3b35b2b38",
+  "version": "2.0",
+  "name": "test_seach",
+  "url": "https://shop.siliconz.vn/",
+  "tests": [{
+    "id": "7026c460-bfa4-4b16-815e-78f960df8a75",
+    "name": "uc_seach",
+    "commands": [{
+      "id": "0efff1d4-7df4-469f-a3c1-bc2480a047e2",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13ae6324-1458-437c-a44d-336d6e4dc8b6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.auto-search",
+      "targets": [
+        ["css=.auto-search", "css:finder"],
+        ["xpath=(//input[@name='q'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='site-search-handle']/div/form/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "682d93b3-78be-42e3-9fff-2ac2397c661b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.auto-search",
+      "targets": [
+        ["css=.auto-search", "css:finder"],
+        ["xpath=(//input[@name='q'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='site-search-handle']/div/form/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/input", "xpath:position"]
+      ],
+      "value": "keychron"
+    }, {
+      "id": "09da9bcb-cb6f-4e98-90fb-9d190e26874a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.input-group-btn:nth-child(1) .fas",
+      "targets": [
+        ["css=.input-group-btn:nth-child(1) .fas", "css:finder"],
+        ["xpath=//div[@id='site-search-handle']/div/form/span/button/i", "xpath:idRelative"],
+        ["xpath=//div/div/form/span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "52efca59-0b6e-411c-a835-8ad655271493",
+    "name": "uc_seach_(no)",
+    "commands": [{
+      "id": "85e1cb5a-b20f-4ce0-a781-9e95ee03800a",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7de99891-02a2-4648-9f26-702b2636627f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.auto-search",
+      "targets": [
+        ["css=.auto-search", "css:finder"],
+        ["xpath=(//input[@name='q'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='site-search-handle']/div/form/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef27b0bf-2980-479a-8d23-3f0509c6b491",
+      "comment": "",
+      "command": "type",
+      "target": "css=.auto-search",
+      "targets": [
+        ["css=.auto-search", "css:finder"],
+        ["xpath=(//input[@name='q'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='site-search-handle']/div/form/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fae3823a-ddde-480b-9c88-5d277f7d8ebc",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.input-group-btn:nth-child(1) .fas",
+      "targets": [
+        ["css=.input-group-btn:nth-child(1) .fas", "css:finder"],
+        ["xpath=//div[@id='site-search-handle']/div/form/span/button/i", "xpath:idRelative"],
+        ["xpath=//div/div/form/span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "728cb4d1-061d-4741-9778-d0aee1d39328",
+    "name": "uc_seach_(fake)",
+    "commands": [{
+      "id": "22ada53f-5324-47dc-bb8c-4190db1da162",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34564a51-e68c-4ef1-8d68-17cd5bc3660e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.auto-search",
+      "targets": [
+        ["css=.auto-search", "css:finder"],
+        ["xpath=(//input[@name='q'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='site-search-handle']/div/form/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1958b2af-1dfe-414a-94bf-27d0485ba92a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.auto-search",
+      "targets": [
+        ["css=.auto-search", "css:finder"],
+        ["xpath=(//input[@name='q'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='site-search-handle']/div/form/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/input", "xpath:position"]
+      ],
+      "value": "máy tính"
+    }, {
+      "id": "d2467241-be91-477e-bf97-debc8bf79584",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.input-group-btn:nth-child(1) .fas",
+      "targets": [
+        ["css=.input-group-btn:nth-child(1) .fas", "css:finder"],
+        ["xpath=//div[@id='site-search-handle']/div/form/span/button/i", "xpath:idRelative"],
+        ["xpath=//div/div/form/span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ef786904-d810-4214-8a62-0fdb2b3b1faa",
+    "name": "uc_seach-timkiem",
+    "commands": [{
+      "id": "1a90d4be-5fdd-44c2-b869-e53bdc66b38f",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "614c46f5-49d3-4202-a431-8cb302009e92",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.input-group-btn:nth-child(1) .fas",
+      "targets": [
+        ["css=.input-group-btn:nth-child(1) .fas", "css:finder"],
+        ["xpath=//div[@id='site-search-handle']/div/form/span/button/i", "xpath:idRelative"],
+        ["xpath=//div/div/form/span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8bf9c00d-b4db-4992-a3e2-9a4e9d50f5aa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7026c460-bfa4-4b16-815e-78f960df8a75"]
+  }],
+  "urls": ["https://shop.siliconz.vn/"],
+  "plugins": []
+}

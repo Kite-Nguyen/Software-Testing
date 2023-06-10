@@ -1,0 +1,210 @@
+{
+  "id": "51a1e043-0581-493b-af7e-e1f5a84dbb8d",
+  "version": "2.0",
+  "name": "test_menu",
+  "url": "https://shop.siliconz.vn/",
+  "tests": [{
+    "id": "4ac40122-e902-4b14-a404-b6b33177036e",
+    "name": "uc_like",
+    "commands": [{
+      "id": "9875a3c4-1ce9-490b-bc0c-324aebd72312",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c201463-6f20-45e5-9373-187a39178fbd",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.productHover38877714",
+      "targets": [
+        ["css=.productHover38877714", "css:finder"],
+        ["xpath=//img[@alt='Keychron K4 Pro - Bản Full - LED RGB - Hot Swap - Keychron K Pro']", "xpath:img"],
+        ["xpath=//div[@id='out-stock']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[8]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ec3d1fb-289c-447d-9a82-6fdf045cf7c8",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "css=.wish-none",
+      "targets": [
+        ["css=.wish-none", "css:finder"],
+        ["xpath=//div[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sản phẩm yêu thích')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a1a83565-7d68-437c-98ad-4c6a993935c3",
+    "name": "uc_xoa-like",
+    "commands": [{
+      "id": "60079e3f-cb9d-4a9e-a898-97c90ce11ee0",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac75bbd9-1b72-4e87-b703-45f7a18830e2",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.productHover38877714",
+      "targets": [
+        ["css=.productHover38877714", "css:finder"],
+        ["xpath=//img[@alt='Keychron K4 Pro - Bản Full - LED RGB - Hot Swap - Keychron K Pro']", "xpath:img"],
+        ["xpath=//div[@id='out-stock']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[8]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db8cbb8a-7f42-420e-a98f-863746e74c8b",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "css=.view-wish > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "736b039f-1013-4924-ba60-2a7156447cf2",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Xóa",
+      "targets": [
+        ["linkText=Xóa", "linkText"],
+        ["css=.removeFav", "css:finder"],
+        ["xpath=//a[contains(text(),'Xóa')]", "xpath:link"],
+        ["xpath=//tbody[@id='wishlist-row40']/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:')]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Xóa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad032013-93b0-4942-84a7-4b27e9a8e898",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#dialogMessage > p",
+      "targets": [],
+      "value": "Bạn muốn xóa sản phẩm yêu thích này"
+    }, {
+      "id": "d73060e8-245c-409d-a32a-01d25d847de4",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.ui-dialog-buttonset > button:nth-child(1)",
+      "targets": [
+        ["css=.ui-dialog-buttonset > button:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[11]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "de18e913-f51c-4765-8bd8-32d63f9b488f",
+    "name": "uc_danh-gia",
+    "commands": [{
+      "id": "26ac2f85-5a34-4fcd-b0db-1a065ccc1c6a",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ee9c0f2-c9e0-443a-93d8-38759a1686fe",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.productHover38877714",
+      "targets": [
+        ["css=.productHover38877714", "css:finder"],
+        ["xpath=//img[@alt='Keychron K4 Pro - Bản Full - LED RGB - Hot Swap - Keychron K Pro']", "xpath:img"],
+        ["xpath=//div[@id='out-stock']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[8]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "651cef7d-1d38-4cc6-967a-6a0566d9852f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.clickSocial",
+      "targets": [
+        ["css=.clickSocial", "css:finder"],
+        ["xpath=//div[@id='pContent']/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Đánh giá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe86e855-aec4-469f-8170-9ab37724f8a7",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.si:nth-child(5)",
+      "targets": [
+        ["css=.si:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='tab2']/div/div[2]/form/div/p[2]/span[5]", "xpath:idRelative"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65767448-852b-4135-a788-3f84d77d9f68",
+      "comment": "",
+      "command": "type",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='tab2']/div/div[2]/form/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "sản phẩm khá là tốt"
+    }, {
+      "id": "a0f3a0a3-3f0b-439e-9228-b8a455d04c34",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.btnRed",
+      "targets": [
+        ["css=.btnRed", "css:finder"],
+        ["xpath=//div[@id='btnRate']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đánh giá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75bc0b74-3b35-4af9-9053-15eb0b06f0ad",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=dMsg",
+      "targets": [
+        ["id=dMsg", "id"],
+        ["css=#dMsg", "css:finder"],
+        ["xpath=//div[@id='dMsg']", "xpath:attributes"],
+        ["xpath=//div[11]/div[2]", "xpath:position"]
+      ],
+      "value": "Bạn chỉ được đánh giá một lần"
+    }, {
+      "id": "c68b9723-e6f7-4d5b-98fe-04501d51b1d8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.ui-dialog-buttonset > button",
+      "targets": [
+        ["css=.ui-dialog-buttonset > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[12]/div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0b076458-541f-43c7-8e45-e13570cf8cd1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4ac40122-e902-4b14-a404-b6b33177036e"]
+  }],
+  "urls": ["https://shop.siliconz.vn/"],
+  "plugins": []
+}

@@ -1,0 +1,422 @@
+{
+  "id": "6f0fc543-c49f-43c6-a5bb-58125a2946de",
+  "version": "2.0",
+  "name": "test_login-siliconZ",
+  "url": "https://shop.siliconz.vn/",
+  "tests": [{
+    "id": "cd367ff2-21f9-4c0c-a8c6-800e71c4eddd",
+    "name": "uc_login-email_pass(sai)",
+    "commands": [{
+      "id": "d71b382b-0dbf-4745-92f4-c340388d1055",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1448eae6-7fdf-4873-b7f8-2ce5956d5235",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a:nth-child(1) > .account-menu",
+      "targets": [
+        ["css=a:nth-child(1) > .account-menu", "css:finder"],
+        ["xpath=//div[@id='site-account-handle']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a8a68f9-77b4-4a92-b79d-d767f8c8763b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf484951-8bdc-463f-971a-1afe52417119",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "thanhlong09052002@gmail.com"
+    }, {
+      "id": "d525bf01-7147-41c5-9ea1-b96bd2d93fae",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cef28dc0-c096-4560-9630-814e04d283da",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "09052002"
+    }, {
+      "id": "d5f5195a-5f6f-4af1-8ba3-a1779e2323c5",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c4fddc8-2643-41d1-ba3e-099129c23bb9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.errors > li",
+      "targets": [
+        ["css=.errors > li", "css:finder"],
+        ["xpath=//form[@id='UserSignin']/ul/li/ul/li", "xpath:idRelative"],
+        ["xpath=//form/ul/li/ul/li", "xpath:position"]
+      ],
+      "value": "Tên đăng nhập hoặc mật khẩu không chính xác"
+    }]
+  }, {
+    "id": "1a44d3a4-d6d5-4821-ab4c-1ca8bd7d7904",
+    "name": "uc_login-pass(thieu)",
+    "commands": [{
+      "id": "ed54a2fb-7516-4043-8960-86eb1feed121",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "524b9918-7ed4-43a7-9fd0-6d7362646c82",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a:nth-child(1) > .account-menu",
+      "targets": [
+        ["css=a:nth-child(1) > .account-menu", "css:finder"],
+        ["xpath=//div[@id='site-account-handle']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a1d0f6f-659c-4c4e-99ef-a724580f2d71",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3917c8d8-4c22-41dc-86a7-008cf54db322",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "thanhlong09052002@gmail.com"
+    }, {
+      "id": "484590a2-9949-4822-9535-c250c98000b6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53108368-254b-4850-8194-160714538aa8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83410c59-5f16-4aad-a84c-29352893e991",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08ce10b5-2412-4a8d-843b-fd2f709a90ae",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.errors > li",
+      "targets": [
+        ["css=.errors > li", "css:finder"],
+        ["xpath=//form[@id='UserSignin']/ul/li[2]/ul/li", "xpath:idRelative"],
+        ["xpath=//form/ul/li[2]/ul/li", "xpath:position"]
+      ],
+      "value": "Bạn chưa nhập Mật khẩu"
+    }]
+  }, {
+    "id": "5c2e4c4a-666e-41cb-8213-8b7060d7e424",
+    "name": "uc_login-ok",
+    "commands": [{
+      "id": "012bc27d-c99f-42f2-81ac-088a2069320e",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bca9ec0-5a14-444b-9a10-d63eeab7c458",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a:nth-child(1) > .account-menu",
+      "targets": [
+        ["css=a:nth-child(1) > .account-menu", "css:finder"],
+        ["xpath=//div[@id='site-account-handle']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9197d1b4-1059-41e9-962c-1dd042f14109",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7403c297-b1e3-4fa0-a961-c95e12ba2541",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "thanhlong09052002@gmail.com"
+    }, {
+      "id": "7fb6bc1d-24e7-4bce-ad5a-b62db30b0781",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1c8af71-31b0-4381-892b-d040a496d637",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "05092002"
+    }, {
+      "id": "7a72d6b8-161e-41c6-83be-978b3b995982",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3b6b7c0a-2b00-4b6a-9d03-ad209f42612e",
+    "name": "uc_login-email(thieu)",
+    "commands": [{
+      "id": "f0109cf0-5734-4380-87a4-c74bc6c18e5d",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "277735a3-ce0d-452e-9814-e2a0053ac7de",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a:nth-child(1) > .account-menu",
+      "targets": [
+        ["css=a:nth-child(1) > .account-menu", "css:finder"],
+        ["xpath=//div[@id='site-account-handle']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d3acd01-a966-4176-ba58-bb212da35a51",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "031c335d-6c24-4edc-b06b-864d710f54aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a084503c-d2ec-4622-94f3-a0a1111b164b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0bcaf5-f822-42a7-8e51-552944e34ec6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "09052002"
+    }, {
+      "id": "9d046acf-b8ae-409f-9c9c-ee0ca5371277",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='UserSignin']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8c50559-c135-4067-80c5-9d816b1f1f9f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.errors > li",
+      "targets": [
+        ["css=.errors > li", "css:finder"],
+        ["xpath=//form[@id='UserSignin']/ul/li/ul/li", "xpath:idRelative"],
+        ["xpath=//form/ul/li/ul/li", "xpath:position"]
+      ],
+      "value": "Bạn chưa nhập email"
+    }]
+  }],
+  "suites": [{
+    "id": "36145617-5a7c-4c43-8c4b-b6e7a0759f85",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cd367ff2-21f9-4c0c-a8c6-800e71c4eddd"]
+  }],
+  "urls": ["https://shop.siliconz.vn/"],
+  "plugins": []
+}

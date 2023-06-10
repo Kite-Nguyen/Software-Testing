@@ -1,0 +1,271 @@
+{
+  "id": "d14c3564-49dc-4c19-99d6-7fad6477b71f",
+  "version": "2.0",
+  "name": "test_chuc-nang",
+  "url": "https://shop.siliconz.vn/",
+  "tests": [{
+    "id": "435af80d-0270-435e-96db-b6ccbd363842",
+    "name": "uc_ds-ban-phim-khong-day",
+    "commands": [{
+      "id": "e2cd7da0-b11f-454d-a708-a8d1e617630d",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dc61666-ff8c-4777-82d7-35a0d1e88c66",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.hidden-xs > #nav-menu .menu__item:nth-child(1) > .menu__link",
+      "targets": [
+        ["css=.hidden-xs > #nav-menu .menu__item:nth-child(1) > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Bàn phím không dây')])[2]", "xpath:link"],
+        ["xpath=(//div[@id='nav-menu']/nav/ul/li/a)[8]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ban-phim-keychron-pc461622.html')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div[2]/div/nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0ee48d41-0f55-4b71-b573-61cf37286459",
+    "name": "uc-ds-ban-phim-custom",
+    "commands": [{
+      "id": "a60ba544-2971-462f-bbc4-14c97373ee89",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23656527-56b4-4759-a70a-255565bbe35d",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.hidden-xs > #nav-menu .menu__item:nth-child(2) > .menu__link",
+      "targets": [
+        ["css=.hidden-xs > #nav-menu .menu__item:nth-child(2) > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Bàn phím custom')])[2]", "xpath:link"],
+        ["xpath=(//div[@id='nav-menu']/nav/ul/li[2]/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/custom-keyboard-pc565902.html')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div[2]/div/nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c5d1d4e-4cfd-47b0-919c-a9cc061d1ff4",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.menu__item:nth-child(2) .container .menu__item:nth-child(4) > .menu__link",
+      "targets": [
+        ["css=.menu__item:nth-child(2) .container .menu__item:nth-child(4) > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Q Pro Series')])[2]", "xpath:link"],
+        ["xpath=//div[@id='nav-menu']/nav/ul/li[2]/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/q-pro-series-pc568131.html')])[2]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e5a7bfa5-0114-4393-ba38-9635cb261c5f",
+    "name": "uc_phu-kien-ban-phim",
+    "commands": [{
+      "id": "2d68eaf0-ddc7-47bb-8518-16ccca6626fe",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4d57f7d-de4d-47f7-b271-b8eee3553277",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.hidden-xs .main-nav-menu > .menu__list > .menu__item:nth-child(3) > .menu__link",
+      "targets": [
+        ["css=.hidden-xs .main-nav-menu > .menu__list > .menu__item:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Phụ kiện bàn phím')])[2]", "xpath:link"],
+        ["xpath=(//div[@id='nav-menu']/nav/ul/li[3]/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/phu-kien-ban-phim-pc502307.html')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div[2]/div/nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d435c645-7098-4139-9a3f-94f432f7aa71",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.menu__item:nth-child(3) .container .menu__item:nth-child(3) > .menu__link",
+      "targets": [
+        ["css=.menu__item:nth-child(3) .container .menu__item:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Kê tay')])[2]", "xpath:link"],
+        ["xpath=//div[@id='nav-menu']/nav/ul/li[3]/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ke-tay-pc565905.html')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d390f301-b3a4-4d36-9303-f0258adb20b7",
+    "name": "uc_group-buy",
+    "commands": [{
+      "id": "51f6cf2a-a1fc-48aa-bca2-3d02b21be7cc",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc9d1261-4984-4c62-ba4f-77fb69f26ed0",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.hidden-xs .main-nav-menu > .menu__list > .menu__item:nth-child(4) > .menu__link",
+      "targets": [
+        ["css=.hidden-xs .main-nav-menu > .menu__list > .menu__item:nth-child(4) > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Group Buy')])[2]", "xpath:link"],
+        ["xpath=(//div[@id='nav-menu']/nav/ul/li[4]/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://siliconz.vn/project.html?status=pre-order')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div[2]/div/nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d634c01-5d44-4504-9b6d-26d0eafd5c61",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Dự án",
+      "targets": [
+        ["linkText=Dự án", "linkText"],
+        ["css=.menuTop li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dự án')]", "xpath:link"],
+        ["xpath=//div[@id='vh-header']/div/div/div/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://siliconz.vn/project.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dự án')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a47f83c5-1b8e-4411-9315-646003cbf03c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Khám phá",
+      "targets": [
+        ["linkText=Khám phá", "linkText"],
+        ["css=.menuTop li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Khám phá')]", "xpath:link"],
+        ["xpath=//div[@id='vh-header']/div/div/div/div[2]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://siliconz.vn/news.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Khám phá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30e8b620-c974-464b-b101-1c4987f2e2e4",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Gallery",
+      "targets": [
+        ["linkText=Gallery", "linkText"],
+        ["css=.menuTop li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Gallery')]", "xpath:link"],
+        ["xpath=//div[@id='vh-header']/div/div/div/div[2]/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://siliconz.vn/gallery.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gallery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "463b20c9-ed95-4671-a1f4-31eb59a9c96a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Về SiliconZ",
+      "targets": [
+        ["linkText=Về SiliconZ", "linkText"],
+        ["css=.menuTop li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Về SiliconZ')]", "xpath:link"],
+        ["xpath=//div[@id='vh-header']/div/div/div/div[2]/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[6]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Về SiliconZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c41f32e-fe76-49c2-8048-ac5fd8f249c2",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=SiliconZ Store",
+      "targets": [
+        ["linkText=SiliconZ Store", "linkText"],
+        ["css=.menuTop li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'SiliconZ Store')]", "xpath:link"],
+        ["xpath=//div[@id='vh-header']/div/div/div/div[2]/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shop.siliconz.vn/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SiliconZ Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e8b16cd1-f7f4-487c-aa9a-85792937636b",
+    "name": "uc_cong-thai-hoc",
+    "commands": [{
+      "id": "db94d7e0-8d48-4022-beed-f9c413b4b4ef",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1567e21-70e4-4fe4-afa0-23c9e06fa890",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.hidden-xs .main-nav-menu > .menu__list > .menu__item:nth-child(5) > .menu__link",
+      "targets": [
+        ["css=.hidden-xs .main-nav-menu > .menu__list > .menu__item:nth-child(5) > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Công thái học')])[2]", "xpath:link"],
+        ["xpath=(//div[@id='nav-menu']/nav/ul/li[5]/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cong-thai-hoc-pc562239.html')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div[2]/div/nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60d18d80-6940-4b12-834a-94f468cf162d",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.hidden-xs .main-nav-menu > .menu__list > .menu__item:nth-child(5) > .menu__link",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "620251fd-87b4-455d-a3a1-be98eacccda5",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.hidden-xs .main-nav-menu > .menu__list > .menu__item:nth-child(5) > .menu__link",
+      "targets": [
+        ["css=.hidden-xs .main-nav-menu > .menu__list > .menu__item:nth-child(5) > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Công thái học')])[2]", "xpath:link"],
+        ["xpath=(//div[@id='nav-menu']/nav/ul/li[5]/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cong-thai-hoc-pc562239.html')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div[2]/div/nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c28885d-bb61-44e2-b601-921b8896823f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.menu__item:nth-child(5) .container .menu__item:nth-child(5) > .menu__link",
+      "targets": [
+        ["css=.menu__item:nth-child(5) .container .menu__item:nth-child(5) > .menu__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Phụ kiện Setup')])[2]", "xpath:link"],
+        ["xpath=//div[@id='nav-menu']/nav/ul/li[5]/div/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/phu-kien-setup-pc564230.html')])[2]", "xpath:href"],
+        ["xpath=//li[5]/div/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6cb17c20-ab24-46e2-849a-f12332ca604d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["435af80d-0270-435e-96db-b6ccbd363842"]
+  }],
+  "urls": ["https://shop.siliconz.vn/"],
+  "plugins": []
+}
